@@ -3,7 +3,7 @@ package fr.pantheonsorbonne.ufr27.miage.m1.app.camel;
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Observes;
 
-@ApplicationScoped
+//@ApplicationScoped // je ne vois pas l'intérêt de rendre point injectable
 public class Point implements Cloneable{
     double x;
     double y;

@@ -1,8 +1,10 @@
 package fr.pantheonsorbonne.ufr27.miage.m1.app.camel;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.xml.bind.annotation.XmlRootElement;
 
-@ApplicationScoped
+//@ApplicationScoped // je ne vois pas l'intérêt de rentre triangle injectable
+@XmlRootElement
 public class Triangle {
     Point[] points;
 
